@@ -1,0 +1,4 @@
+name: ProtocolWrappers
+author: Benedikt Wüller
+main: network.cow.protocol.wrappers.ProtocolWrappersPlugin
+version: 1.0.0
