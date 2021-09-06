@@ -17,14 +17,8 @@ public class WrapperPlayClientDig extends AbstractPacket {
         handle.getModifier().writeDefaults();
     }
 
-    /**
-     * Constructs a new strongly typed wrapper for the given packet.
-     *
-     * @param handle - handle to the raw packet data.
-     * @param type   - the packet type.
-     */
-    protected WrapperPlayClientDig(final PacketContainer handle, final PacketType type) {
-        super(handle, type);
+    public WrapperPlayClientDig(PacketContainer packet) {
+        super(packet, TYPE);
     }
 
     public BlockPosition getLocation() {
