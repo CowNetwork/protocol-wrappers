@@ -22,6 +22,7 @@ import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.events.PacketContainer;
 
 public class WrapperPlayClientSteerVehicle extends AbstractPacket {
+
     public static final PacketType TYPE = PacketType.Play.Client.STEER_VEHICLE;
 
     public WrapperPlayClientSteerVehicle() {
